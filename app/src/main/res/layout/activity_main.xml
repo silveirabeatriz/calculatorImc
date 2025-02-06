@@ -8,11 +8,11 @@
 
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/btn_calculate"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="16dp"
-        android:text="Button"
+        android:text="Calculate"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"/>
@@ -27,6 +27,7 @@
         app:layout_constraintTop_toTopOf="parent">
 
         <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/edt_peso"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="Enter your weight ex: 68.200"
@@ -43,6 +44,7 @@
         tools:layout_editor_absoluteX="1dp">
 
         <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/edt_altura"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="Enter your height ex: 1,70"
