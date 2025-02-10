@@ -22,11 +22,12 @@ class MainActivity : AppCompatActivity() {
 
         btnCalculate.setOnClickListener{
 
-            val peso = edtPeso.text
-            val altura = edtAltura.text
+            val peso: Float = edtPeso.text.toString().toFloat()
+            val altura: Float = edtAltura.text.toString().toFloat()
 
-            
-            println("Acao do botao " + peso + altura)
+            val alturaQ2 = altura * altura
+            val resultado = peso / alturaQ2
+            println("O seu IMC é: " + resultado)
         }
 
 
