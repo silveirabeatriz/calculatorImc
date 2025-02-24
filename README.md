@@ -3,17 +3,28 @@ This project is a native Android application developed using the Kotlin programm
 
 ## :camera_flash: Screenshots
 <!-- You can add more screenshots here if you like -->
-<img src="/Users/beatrizsilveira/dev/android/calculatorImcc/Screen_one" width=160/> <img src="/Users/beatrizsilveira/dev/android/calculatorImcc/Screen_result" width=160/>
+<img src="https://github.com/user-attachments/assets/0e96a549-a4a7-4437-a872-c84eb36fd473" width=260/> <img src="https://github.com/user-attachments/assets/736d1ccb-b1f0-427e-b234-44557d4138b6" width=260/>
+
 
 ## Tecnologias
-Techs
+-Activity
+-Intent
+-Snackbar
+-ViewGroups
+  -LinearLayout
+  -ConstraintLayout
+-Views
+  -ImageView
+  -Textview
+  -EditText
+  -Button
 
 
 ## License
 ```
 The MIT License (MIT)
 
-Copyright (c) 2023 Roque Buarque Junior
+Copyright (c) 2025 Beatriz Silveira
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of
 this software and associated documentation files (the "Software"), to deal in
