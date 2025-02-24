@@ -24,7 +24,7 @@ class ResultActivity : AppCompatActivity() {
         tvResult.text = result.toString()
 
         val (classification, color) = when {
-            result <= 18.5f -> "UNDERWEIGHT" to Color.BLUE
+            result <= 18.5f -> "UNDERWEIGHT" to Color.RED
             result <= 24.9f -> "HEALTHY" to Color.GREEN
             result <= 29.9f -> "OVERWEIGHT" to Color.YELLOW
             result <= 39.9f -> "OBESITY" to Color.MAGENTA
