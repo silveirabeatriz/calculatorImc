@@ -1,9 +1,9 @@
-# Calculadora IMC
-Desc
+# BMI Calculator
+This project is a native Android application developed using the Kotlin programming language. Its functionality includes calculating BMI and displaying the result.
 
 ## :camera_flash: Screenshots
 <!-- You can add more screenshots here if you like -->
-Screenshots
+<img src="/Users/beatrizsilveira/dev/android/calculatorImcc/Screen_one" width=160/> <img src="/Users/beatrizsilveira/dev/android/calculatorImcc/Screen_result" width=160/>
 
 ## Tecnologias
 Techs
